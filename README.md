@@ -1,2 +1,2 @@
 # Projetos da Faculdade
- Projetos criados na Faculdade
+ Projetos criados durante a Faculdade
