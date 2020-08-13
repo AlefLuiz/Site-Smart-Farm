@@ -1,6 +1,7 @@
-## Projetos da Faculdade
+<h1 align="right"> Projetos da Faculdade </h1>
+<br>
 
-### Site SmartFarm - A sua fazenda inteligente.
+<h2>Site SmartFarm - A sua fazenda inteligente.</h2>
 
 #### Sobre:
 
@@ -23,5 +24,7 @@
  #### Releases:
  
  - Re-edit utilizando Mobile-First aprendido na 2ª Edição Next Level Week ( RocketSeat ) [12/08/2020]
+
+<h5 align="center"> <a href="https://github.com/AlefLuiz/Projetos-da-Faculdade/blob/master/LICENSE">License MIT</a></h5>
 
 ---
