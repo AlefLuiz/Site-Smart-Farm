@@ -1,6 +1,4 @@
-# Projetos da Faculdade
-
----
+## Projetos da Faculdade
 
 ### Site SmartFarm - A sua fazenda inteligente.
 
@@ -25,3 +23,5 @@
  #### Releases:
  
  - Re-edit utilizando Mobile-First aprendido na 2ª Edição Next Level Week ( RocketSeat ) [12/08/2020]
+
+---
