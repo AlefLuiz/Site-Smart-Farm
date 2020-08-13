@@ -1,0 +1,136 @@
+﻿<html>
+
+<head>
+  <title>Smart Farm - Servi&ccedil;os</title>
+  <link rel="stylesheet" href="/public/styles/main.css">
+  <link rel="stylesheet" href="/public/styles/partials/page-services.css">
+  <link rel="stylesheet" href="/public/styles/partials/form.css">
+  <link rel="icon" href="/public/imgs/LogoDes.png">
+  <script src="/public/scripts/form.js" defer></script>
+</head>
+
+<body id="page-services">
+  <div id="container">
+    <header class="topbar">
+      <div class="logo">
+        <img src="/public/imgs/Logo.png">
+        <img src="/public/imgs/LogoTitle.png">
+      </div>
+      <div class="links">
+        <a href="/index.html">INICIO</a>
+        <a href="/servicos.html">SERVI&Ccedil;OS</a>
+        <a href="/sobre.html">SOBRE N&Oacute;S</a>
+      </div>
+    </header>
+    <main>
+      <div class="escolhas" id="voltar">
+        <a href="#pacote1"><img src="/public/imgs/pacotesmart.png"></a>
+        <a href="#pacote2"><img src="/public/imgs/pacoteplus.png"></a>
+      </div>
+      <div class="pacotes" id="pacote1">
+        <h1>Smart Farm</h1>
+        <p>O pacote Smart Farm oferece a você agricultor três ferramentas essenciais para tornar sua fazenda um
+          local
+          mais sustentável, <b>Irrigação inteligente</b>, <b>Energia eólica</b> e <b>Grade sensores</b>.<br>Uma
+          plantação bem irrigada é necessária para se obter uma boa colheita e para alcançar esse objetivo da forma
+          mais sustentável.<br>É necessário uma fonte de energia mais limpa possível; saber quando, onde e qual a
+          melhor forma de irrigar a sua plantação. Em relação a energia limpa o Pacote Smart Farm garante a
+          instalação
+          de geradores eólicos que podem suprir a necessidade elétrica ou ao menos reduzir o gasto financeiro com
+          ela.<br>Para cumprir os outros parâmetros sustentáveis a Irrigação inteligente e a Grade de sensores
+          funcionam em conjunto, utilizando-se do conceito de Agricultura de Precisão os sensores captam dados como
+          umidade do solo e nutrientes de uma área, os processam e nosso sistema irá determinar se será necessário.
+        </p>
+        <center>
+          <img src="/public/imgs/irrigation.jpg">
+          <img src="/public/imgs/eolication.jpg">
+          <img src="/public/imgs/sensores.jpg">
+        </center>
+        <p>
+          Reduza o consumo de água irrigando a plantação corretamente.
+          Energia renovável e limpa para manter energizar sua fazenda.
+          Captura de dados em tempo real para auxíliar na tomada de decisões.
+        </p>
+        <div class="buttons">
+          <button type="button">
+            <a href="#contrate">Contrate!</a>
+          </button>
+          <button type="button">
+            <a href="#voltar">Ir para o Topo</a>
+          </button>
+        </div>
+      </div>
+      <div class="pacotes" id="pacote2">
+        <h1>Smart Farm Plus</h1>
+        <p>O pacote <b>SmartFarmPlus</b> além de oferecer todo o contéudo do anterior, oferece serviços adicionais
+          como:</p>
+        <ul type="disc">
+          <li>Banco de dados, para análise e comparações técnicas.</li>
+          <li>Atendimento remoto 24 horas.</li>
+          <li>Monitoramento em tempo real, com aplicativo de celular e sistema de cameras permitindo ao usuário
+            visualizar e alterar funções do seu agronegócio a qualquer momento.</li>
+        </ul>
+        <center>
+          <img src="/public/imgs/database.jpg">
+          <img src="/public/imgs/monitoramento.jpg">
+          <img src="/public/imgs/24hrs.jpeg">
+        </center>
+        <p>
+          Armazene e analise os dados coletados com o nosso Banco de Dados.
+          Monitore as condições da sua fazenda de onde e quando quiser.
+          Não importa a hora a SmartFarm estará sempre pronta para atende-lo.
+        </p>
+        <div class="buttons">
+          <button type="button">
+            <a href="#contrate">Contrate!</a>
+          </button>
+          <button type="button">
+            <a href="#voltar">Ir para o Topo</a>
+          </button>
+        </div>
+      </div>
+      <form id="formulario">
+        <div class="input-block">
+          <label for="name">Nome Completo:</label>
+          <input name="name" type="text" id="name" required>
+        </div>
+        <div class="input-block">
+          <label for="email">E-mail:</label>
+          <input name="email" type="email" id="email" required>
+        </div>
+        <div class="input-block">
+          <label for="phone">Telefone:</label>
+          <input name="phone" type="number" id="phone" required>
+        </div>
+        <div class="input-block">
+          <label for="adress">Endereço:</label>
+          <input name="adress" type="text" id="adress" required>
+        </div>
+        <div class="checkbox-block">
+          <label for="indicacao">Como soube de nós?</label>
+          <p><input type="checkbox" value="1" name="indicacao[]">Internet</p>
+          <p><input type="checkbox" value="2" name="indicacao[]">Revista</p>
+          <p><input type="checkbox" value="3" name="indicacao[]">Televisão</p>
+          <p><input type="checkbox" value="4" name="indicacao[]">Jornal</p>
+          <p><input type="checkbox" value="5" name="indicacao[]">Amigos</p>
+        </div>
+        <div class="radio-block">
+          <label for="pacote">Escolha um pacote:</label>
+          <div class="pacotes">
+            <input type="radio" name="pacote" id="i1" value="1" required/>
+            <label for="i1"><img src="/public/imgs/pacotesmart.png" alt="SmartFarm Básico"></label>
+            <input type="radio" name="pacote" id="i2" value="2" required/>
+            <label for="i2"><img src="/public/imgs/pacoteplus.png" alt="SmartFarmPlus"></label>
+          </div>
+        </div>
+        <center><button id="submit" type="submit">Enviar</button></center>
+      </form>
+    </main>
+    <footer>
+      <hr>
+      <p>© 2019 SmartFarm - All rights reserved</p>
+    </footer>
+  </div>
+</body>
+
+</html>

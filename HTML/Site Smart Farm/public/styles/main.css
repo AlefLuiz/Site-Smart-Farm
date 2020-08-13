@@ -1,0 +1,157 @@
+:root{
+    --color-background:WhiteSmoke;
+    --color-topbar-background:white;
+    --color-title: #004d00;
+    --color-paragraph:#006600;
+    --color-link: SeaGreen;
+    --color-link-light: MediumSeaGreen;
+    --color-link-visited:black;
+    font-size: 80%;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+}
+body{
+    background: var(--color-background) url(/public/imgs/bg.png) no-repeat center; 
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+}
+body p,ul{
+    font-size: 3rem;
+    color: var(--color-paragraph);
+}
+body h1{
+    font-size: 5rem;
+    color: var(--color-title);
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+}
+.topbar {
+    background-color: var(--color-topbar-background);
+    padding: 0 3rem 1rem 3rem;
+    width: 100%;
+}
+.topbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar .logo img{
+    height: 10rem;
+}
+.topbar .logo img+img{
+    height: 5rem;
+    margin-left: 2rem;
+}
+.topbar .links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar .links a:link{
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--color-link);
+    text-decoration: none;
+    transition: 0.2s;
+}
+.topbar .links a:visited{
+    color: var(--color-link);
+}
+.topbar .links a:hover{
+    color: var(--color-link-light);
+}
+button{
+    background: none;
+    border: 0.3rem solid var(--color-link);
+    border-radius: 2rem;
+    height: 5rem;
+    transition: 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    color: var(--color-link-light);
+    border: 0.3rem solid var(--color-link-light);
+}
+button a{
+    color: var(--color-link);
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: 0.2s;
+}
+button a:hover{
+    color: var(--color-link-light);
+}
+footer{
+    margin-top: 2rem;
+    text-align: center;
+}
+footer hr{
+    display: inline-block;
+    width: 90%;
+    border-color: var(--color-paragraph);
+}
+footer p{
+    margin: 2rem 0;
+    color: var(--color-title);
+    font-size: 3rem;
+}
+@media(min-width:1100px){
+    #container{
+        max-width: 1100px;
+    }
+    .topbar{
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "Logo Espaco Links";
+        padding: 0 20px;
+    }
+    .topbar .logo{
+        grid-area: Logo;
+    }
+    .topbar .links{
+        grid-area: Links;
+    }
+    .topbar .logo img{
+        height: 80px;
+    }
+    .topbar .logo img+img{
+        height: 40px;
+    }
+    .topbar .links{
+        padding: 0;
+    }
+    .topbar .links a:link{
+        font-size: 20px;
+    }
+    button a{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    footer hr{
+        border: 1px solid var(--color-paragraph);
+    }
+    body p, ul{
+        font-size: 20px;
+    }
+    body h1{
+        font-size: 30px;
+    }
+}

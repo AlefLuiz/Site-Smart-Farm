@@ -1,0 +1,60 @@
+#page-services .escolhas{
+    background-image: url("/public/imgs/escolha.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 5rem;
+}
+#page-services .escolhas img{
+    margin-bottom: 2rem;
+    width: 50rem;
+}
+#page-services .pacotes{
+    padding: 0 2rem;
+}
+#page-services .pacotes p, ul{
+    margin: 2rem 2rem;
+    text-align: justify;
+}
+#page-services .pacotes h1{
+    margin: 4rem 0 0 0;
+    text-align: left;
+}
+#page-services .pacotes img{
+    margin: 1rem 0;
+    width: 50rem;
+}
+#page-services .pacotes .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+#formulario{
+    margin-top: 5rem;
+    padding: 0 10%;
+}
+
+@media(min-width:1100px){
+    #page-services .escolhas{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 100px;
+    }
+    #page-services .escolhas img{
+        margin-bottom: 2rem;
+        width: 350px;
+    }
+    #page-services .pacotes p, ul{
+        margin: 20px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    #page-services .pacotes h1{
+        margin: 20px 0 0 0;
+        font-size: 30px;
+    }
+    #page-services .pacotes img{
+        margin: 1rem 0;
+        width: 300px;
+    }
+}

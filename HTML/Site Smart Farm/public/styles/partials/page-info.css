@@ -1,0 +1,11 @@
+#page-info main img{
+    margin-top: 2rem;
+    width: 90%;
+}
+#page-info main h1{
+    text-align: center;
+    margin: 2rem;
+}
+#page-info main p{
+    margin: 0 1rem;
+}

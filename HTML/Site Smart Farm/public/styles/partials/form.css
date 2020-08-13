@@ -1,0 +1,83 @@
+#formulario .input-block label, 
+.checkbox-block label, 
+.radio-block label{
+    display: block;
+    font-size: 3.5rem;
+    color: var(--color-title);
+}
+#formulario .input-block input{
+    width: 100%;
+    font-size: 3rem;
+}
+#formulario .checkbox-block p{
+    margin: 1rem 1rem;
+    display: inline-block;
+    font-size: 3rem;
+    color: var(--color-link);
+}
+#formulario .checkbox-block input{
+    height: 2rem;
+    width: 2rem;
+}
+#formulario .radio-block .pacotes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#formulario .radio-block img{
+    width: 20rem;
+    margin: 0 auto;
+}
+#formulario .radio-block input{
+    visibility: hidden;
+}
+#formulario .radio-block input:checked+label{
+    width: 20.3rem;
+    border: 2px solid var(--color-title);
+}
+#formulario button{
+    background: none;
+    border: 0.3rem solid var(--color-link);
+    border-radius: 1rem;
+    width: 60%;
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: var(--color-link);
+    transition: 0.2s;
+}
+#formulario button:hover{
+    color: var(--color-link-light);
+    border: 0.3rem solid var(--color-link-light);
+}
+@media(min-width:1100px){
+    #formulario .input-block label, .checkbox-block label, .radio-block label{
+        font-size: 20px;
+        color: var(--color-title);
+    }
+    #formulario .input-block input{
+        width: 100%;
+        font-size: 20px;
+    }
+    #formulario .checkbox-block input{
+        height: 15px;
+        width: 15px;
+    }
+    #formulario .checkbox-block p{
+        font-size: 20px;
+    }
+    #formulario .radio-block{
+        display: flex;
+    }
+    #formulario .radio-block img{
+        width: 300px;
+    }
+    #formulario .radio-block input:checked+label{
+        text-align: center;
+        width: 305px;
+        border: 2px solid var(--color-title);
+    }
+    #formulario button{
+        width: 80%;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,9 @@
+#page-landing main{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page-landing main video{
+    width: 80%;
+}
