@@ -1,7 +1,7 @@
-<h1 align="right"> Projetos da Faculdade </h1>
+<h1 align="right">Site SmartFarm</h1>
 <br>
 
-<h2>Site SmartFarm - A sua fazenda inteligente.</h2>
+<h2>A sua fazenda inteligente.</h2>
 
 #### Sobre:
 
@@ -17,14 +17,14 @@
  #### Prints
 
 <p align="center">
-<img src="https://github.com/AlefLuiz/Projetos-da-Faculdade/blob/master/assets/SmartFarm_Print.png" width="40%" align="middle">
-<img src="https://github.com/AlefLuiz/Projetos-da-Faculdade/blob/master/assets/SmartFarm_Print[2].png" width="40%" align="middle">
+<img src="https://github.com/AlefLuiz/Site-Smart-Farm/blob/master/assets/SmartFarm_Print.png" width="40%" align="middle">
+<img src="https://github.com/AlefLuiz/Site-Smart-Farm/blob/master/assets/SmartFarm_Print[2].png" width="40%" align="middle">
 </p>
 
  #### Releases:
  
  - Re-edit utilizando Mobile-First aprendido na 2ª Edição Next Level Week ( RocketSeat ) [12/08/2020]
 
-<h5 align="center"> <a href="https://github.com/AlefLuiz/Projetos-da-Faculdade/blob/master/LICENSE">License MIT</a></h5>
+<h5 align="center"> <a href="https://github.com/AlefLuiz/Site-Smart-Farm/blob/master/LICENSE">License MIT</a></h5>
 
 ---
